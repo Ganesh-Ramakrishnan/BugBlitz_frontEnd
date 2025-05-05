@@ -1,0 +1,33 @@
+/* Sidebar Styles */
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  transition: width 0.3s;
+  overflow-x: hidden;
+}
+
+.sidebar:hover {
+  width: 200px;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sidebar a i {
+  width: 30px;
+  text-align: center;
+}
+
+.sidebar a:hover {
+  background-color: red;
+}

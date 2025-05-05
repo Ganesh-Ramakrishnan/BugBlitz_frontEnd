@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #000; /* Black background */
+}
+.navbar-brand {
+  color: red !important; /* Red logo text */
+  font-weight: bold;
+}
+.nav-link, .dropdown-item {
+  color: white !important; /* White text */
+}
+.dropdown-menu {
+  background-color: black; /* Black dropdown */
+}
+.dropdown-item:hover {
+  background-color: red; /* Red hover */
+  color: white !important;
+}
